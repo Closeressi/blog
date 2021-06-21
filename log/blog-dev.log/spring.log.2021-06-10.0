@@ -1,0 +1,59 @@
+2021-06-10 08:45:13.396  WARN 8268 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h17m10s660ms97µs800ns).
+2021-06-10 10:09:29.146  INFO 8268 --- [http-nio-8080-exec-10] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments/38', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.comments', args=[38, {}]}
+2021-06-10 10:09:29.401  INFO 8268 --- [http-nio-8080-exec-10] com.closesi.aspect.LogAspect             : Result ： blog :: commentList
+2021-06-10 15:11:56.918  INFO 8268 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-06-10 15:11:57.621  INFO 8268 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Result ： index
+2021-06-10 15:12:07.272  INFO 8268 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/38', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[38, {}]}
+2021-06-10 15:12:07.455  INFO 8268 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Result ： blog
+2021-06-10 15:12:08.295  INFO 8268 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments/38', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.comments', args=[38, {}]}
+2021-06-10 15:12:08.324  INFO 8268 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Result ： blog :: commentList
+2021-06-10 15:56:43.449  INFO 37608 --- [restartedMain] com.closesi.BlogApplication              : Starting BlogApplication using Java 1.8.0_171 on LAPTOP-QMBT6F70 with PID 37608 (G:\JavaProject\Blog\target\classes started by HP in G:\JavaProject\blog)
+2021-06-10 15:56:43.451 DEBUG 37608 --- [restartedMain] com.closesi.BlogApplication              : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-06-10 15:56:43.452  INFO 37608 --- [restartedMain] com.closesi.BlogApplication              : The following profiles are active: dev
+2021-06-10 15:56:43.497  INFO 37608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 15:56:43.498  INFO 37608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 15:56:44.197  INFO 37608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-10 15:56:44.285  INFO 37608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 5 JPA repository interfaces.
+2021-06-10 15:56:45.154  INFO 37608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 15:56:45.162  INFO 37608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 15:56:45.163  INFO 37608 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-06-10 15:56:45.165  INFO 37608 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-06-10 15:56:45.165  INFO 37608 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-10 15:56:45.165  INFO 37608 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-10 15:56:45.176  INFO 37608 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-10 15:56:45.294  INFO 37608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 15:56:45.294  INFO 37608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1795 ms
+2021-06-10 15:56:45.474  INFO 37608 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-10 15:56:45.540  INFO 37608 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-06-10 15:56:45.696  INFO 37608 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-10 15:56:45.826  INFO 37608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-10 15:56:45.982  INFO 37608 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2021-06-10 15:56:45.986  INFO 37608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-10 15:56:46.010  INFO 37608 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-06-10 15:56:47.188  INFO 37608 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-10 15:56:47.198  INFO 37608 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 15:56:47.274  INFO 37608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 15:56:48.143  WARN 37608 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-10 15:56:48.354  INFO 37608 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-10 15:56:48.677  INFO 37608 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-10 15:56:49.077  INFO 37608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 15:56:49.092  INFO 37608 --- [restartedMain] com.closesi.BlogApplication              : Started BlogApplication in 6.27 seconds (JVM running for 7.734)
+2021-06-10 15:57:20.560  INFO 37608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 15:57:20.561  INFO 37608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 15:57:20.562  INFO 37608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 15:57:20.617  INFO 37608 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-06-10 15:57:20.852  WARN 37608 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-06-10 15:57:20.918  WARN 37608 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-06-10 15:57:20.931  INFO 37608 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： index
+2021-06-10 15:57:27.955  INFO 37608 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/38', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[38, {}]}
+2021-06-10 15:57:28.133  INFO 37608 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Result ： blog
+2021-06-10 15:57:28.979  INFO 37608 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments/38', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.comments', args=[38, {}]}
+2021-06-10 15:57:29.082  INFO 37608 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Result ： blog :: commentList
+2021-06-10 15:58:07.640  INFO 37608 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.post', args=[Comment{id=null, nickname='leo', content='出去玩吗？', email='leo044031@gmail.com', avatar='null', createTime=null, blog=Blog{id=38, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=43, nickname='null', content='null', email='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null}}]}
+2021-06-10 15:58:07.719  INFO 37608 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Result ： redirect:/comments/38
+2021-06-10 15:58:07.733  INFO 37608 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments/38', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.comments', args=[38, {}]}
+2021-06-10 15:58:07.743  INFO 37608 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Result ： blog :: commentList
+2021-06-10 15:58:46.719  INFO 37608 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.post', args=[Comment{id=null, nickname='jerry', content='要放假了', email='jerry044031@gmail.com', avatar='null', createTime=null, blog=Blog{id=38, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', content='null', email='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null}}]}
+2021-06-10 15:58:46.729  INFO 37608 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Result ： redirect:/comments/38
+2021-06-10 15:58:46.733  INFO 37608 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/comments/38', ip='127.0.0.1', classMethod='com.closesi.web.CommentController.comments', args=[38, {}]}
+2021-06-10 15:58:46.746  INFO 37608 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Result ： blog :: commentList

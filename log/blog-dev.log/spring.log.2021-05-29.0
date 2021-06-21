@@ -1,0 +1,270 @@
+2021-05-29 09:36:55.346  WARN 58448 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h25m45s728ms438µs100ns).
+2021-05-29 14:58:31.461  INFO 59128 --- [restartedMain] com.closesi.BlogApplication              : Starting BlogApplication using Java 1.8.0_171 on LAPTOP-QMBT6F70 with PID 59128 (G:\JavaProject\Blog\target\classes started by HP in G:\JavaProject\blog)
+2021-05-29 14:58:31.476 DEBUG 59128 --- [restartedMain] com.closesi.BlogApplication              : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-29 14:58:31.477  INFO 59128 --- [restartedMain] com.closesi.BlogApplication              : The following profiles are active: dev
+2021-05-29 14:58:31.533  INFO 59128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-29 14:58:31.533  INFO 59128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-29 14:58:32.517  INFO 59128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-29 14:58:32.619  INFO 59128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 4 JPA repository interfaces.
+2021-05-29 14:58:33.844  INFO 59128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-29 14:58:33.855  INFO 59128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-29 14:58:33.856  INFO 59128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-29 14:58:33.859  INFO 59128 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-05-29 14:58:33.859  INFO 59128 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-29 14:58:33.859  INFO 59128 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-29 14:58:33.908  INFO 59128 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-05-29 14:58:34.058  INFO 59128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-29 14:58:34.058  INFO 59128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2524 ms
+2021-05-29 14:58:34.256  INFO 59128 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-29 14:58:34.326  INFO 59128 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-29 14:58:34.489  INFO 59128 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-29 14:58:34.615  INFO 59128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-29 14:58:34.766  INFO 59128 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2021-05-29 14:58:34.829  INFO 59128 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-29 14:58:34.857  INFO 59128 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-29 14:58:36.524  INFO 59128 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-29 14:58:36.535  INFO 59128 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-29 14:58:36.598  INFO 59128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-29 14:58:37.471  WARN 59128 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-29 14:58:37.718  INFO 59128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-29 14:58:38.063  INFO 59128 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-29 14:58:38.660  INFO 59128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-29 14:58:38.673  INFO 59128 --- [restartedMain] com.closesi.BlogApplication              : Started BlogApplication in 7.987 seconds (JVM running for 10.546)
+2021-05-29 15:00:59.973  INFO 59128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-29 15:00:59.974  INFO 59128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-29 15:00:59.975  INFO 59128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-29 15:01:03.959  INFO 59128 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-29 15:01:04.294  WARN 59128 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-29 15:01:04.480  WARN 59128 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-29 15:01:04.504  INFO 59128 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Result ： index
+2021-05-29 15:01:15.544 ERROR 59128 --- [http-nio-8080-exec-5] c.c.handler.ControllerExceptionHandler   : Request URL : http://127.0.0.1:8080/search, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-05-29 15:01:15.545  WARN 59128 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-29 15:01:30.346 ERROR 59128 --- [http-nio-8080-exec-2] c.c.handler.ControllerExceptionHandler   : Request URL : http://127.0.0.1:8080/search, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-05-29 15:01:30.348  WARN 59128 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-29 15:01:44.959 ERROR 59128 --- [http-nio-8080-exec-6] c.c.handler.ControllerExceptionHandler   : Request URL : http://127.0.0.1:8080/search, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-05-29 15:01:44.960  WARN 59128 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-29 15:02:44.073  INFO 89352 --- [restartedMain] com.closesi.BlogApplication              : Starting BlogApplication using Java 1.8.0_171 on LAPTOP-QMBT6F70 with PID 89352 (G:\JavaProject\Blog\target\classes started by HP in G:\JavaProject\blog)
+2021-05-29 15:02:44.077 DEBUG 89352 --- [restartedMain] com.closesi.BlogApplication              : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-29 15:02:44.077  INFO 89352 --- [restartedMain] com.closesi.BlogApplication              : The following profiles are active: dev
+2021-05-29 15:02:44.122  INFO 89352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-29 15:02:44.122  INFO 89352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-29 15:02:44.806  INFO 89352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-29 15:02:44.886  INFO 89352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 4 JPA repository interfaces.
+2021-05-29 15:02:45.694  INFO 89352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-29 15:02:45.703  INFO 89352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-29 15:02:45.703  INFO 89352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-29 15:02:45.705  INFO 89352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-05-29 15:02:45.705  INFO 89352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-29 15:02:45.706  INFO 89352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-29 15:02:45.709  INFO 89352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-05-29 15:02:45.837  INFO 89352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-29 15:02:45.837  INFO 89352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1714 ms
+2021-05-29 15:02:46.050  INFO 89352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-29 15:02:46.108  INFO 89352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-29 15:02:46.214  INFO 89352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-29 15:02:46.314  INFO 89352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-29 15:02:46.460  INFO 89352 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2021-05-29 15:02:46.464  INFO 89352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-29 15:02:46.482  INFO 89352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-29 15:02:47.842  INFO 89352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-29 15:02:47.851  INFO 89352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-29 15:02:47.916  INFO 89352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-29 15:02:48.679  WARN 89352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-29 15:02:48.861  INFO 89352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-29 15:02:49.161  INFO 89352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-29 15:02:49.532  INFO 89352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-29 15:02:49.542  INFO 89352 --- [restartedMain] com.closesi.BlogApplication              : Started BlogApplication in 6.069 seconds (JVM running for 7.863)
+2021-05-29 15:09:23.682  INFO 89352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-29 15:09:23.682  INFO 89352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-29 15:09:23.683  INFO 89352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-29 15:09:23.723  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-29 15:09:23.845  WARN 89352 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-29 15:09:23.860  WARN 89352 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-29 15:09:23.868  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： index
+2021-05-29 15:09:33.214  INFO 89352 --- [http-nio-8080-exec-5] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 关于, {}]}
+2021-05-29 15:09:33.259  INFO 89352 --- [http-nio-8080-exec-5] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:09:42.525  INFO 89352 --- [http-nio-8080-exec-4] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-29 15:09:42.546  INFO 89352 --- [http-nio-8080-exec-4] com.closesi.aspect.LogAspect             : Result ： index
+2021-05-29 15:10:06.886  INFO 89352 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学, {}]}
+2021-05-29 15:10:06.896  INFO 89352 --- [http-nio-8080-exec-7] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:10:15.396  INFO 89352 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学, {}]}
+2021-05-29 15:10:15.401  INFO 89352 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:10:18.993  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/34', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[]}
+2021-05-29 15:10:18.993  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： blog
+2021-05-29 15:10:24.912  INFO 89352 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/35', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[]}
+2021-05-29 15:10:24.914  INFO 89352 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Result ： blog
+2021-05-29 15:10:29.222  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/38', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[]}
+2021-05-29 15:10:29.223  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： blog
+2021-05-29 15:10:33.103  INFO 89352 --- [http-nio-8080-exec-10] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/34', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.blog', args=[]}
+2021-05-29 15:10:33.103  INFO 89352 --- [http-nio-8080-exec-10] com.closesi.aspect.LogAspect             : Result ： blog
+2021-05-29 15:10:44.440  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], null, {}]}
+2021-05-29 15:10:44.445  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:11:00.687  INFO 89352 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 自然, {}]}
+2021-05-29 15:11:00.697  INFO 89352 --- [http-nio-8080-exec-2] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:11:47.943  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 自然, {}]}
+2021-05-29 15:11:47.951  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:12:03.421  INFO 89352 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学, {}]}
+2021-05-29 15:12:03.428  INFO 89352 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:12:09.587  INFO 89352 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-29 15:12:09.598  INFO 89352 --- [http-nio-8080-exec-8] com.closesi.aspect.LogAspect             : Result ： index
+2021-05-29 15:12:22.503  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学, {}]}
+2021-05-29 15:12:22.511  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:23:51.520  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学, {}]}
+2021-05-29 15:23:51.528  INFO 89352 --- [http-nio-8080-exec-1] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:24:10.686  INFO 89352 --- [http-nio-8080-exec-5] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 原理, {}]}
+2021-05-29 15:24:10.696  INFO 89352 --- [http-nio-8080-exec-5] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:24:23.497  INFO 89352 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 原, {}]}
+2021-05-29 15:24:23.544  INFO 89352 --- [http-nio-8080-exec-6] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 15:24:40.058  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.closesi.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 科学原理, {}]}
+2021-05-29 15:24:40.062  INFO 89352 --- [http-nio-8080-exec-9] com.closesi.aspect.LogAspect             : Result ： search
+2021-05-29 19:54:46.473  WARN 89352 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58m54s945ms126µs).

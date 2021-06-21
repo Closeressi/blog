@@ -1,0 +1,5 @@
+2021-03-26 19:16:29.491  INFO 8948 --- [restartedMain] com.closesi.BlogApplication              : Starting BlogApplication using Java 1.8.0_171 on LAPTOP-QMBT6F70 with PID 8948 (G:\JavaProject\Blog\target\classes started by HP in G:\JavaProject\blog)
+2021-03-26 19:16:29.496  INFO 8948 --- [restartedMain] com.closesi.BlogApplication              : The following profiles are active: pro
+2021-03-26 19:16:31.919  WARN 8948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-26 19:16:32.127  WARN 8948 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-26 19:16:32.254  INFO 8948 --- [restartedMain] com.closesi.BlogApplication              : Started BlogApplication in 3.351 seconds (JVM running for 4.919)

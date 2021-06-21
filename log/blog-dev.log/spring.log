@@ -1,0 +1,23 @@
+2021-06-21 09:21:02.833  WARN 9436 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h2m47s46ms463µs).
+2021-06-21 11:00:49.141  INFO 8980 --- [main] com.closesi.BlogApplicationTests         : Starting BlogApplicationTests using Java 1.8.0_171 on LAPTOP-QMBT6F70 with PID 8980 (started by HP in G:\JavaProject\Blog)
+2021-06-21 11:00:49.142 DEBUG 8980 --- [main] com.closesi.BlogApplicationTests         : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-06-21 11:00:49.142  INFO 8980 --- [main] com.closesi.BlogApplicationTests         : The following profiles are active: dev
+2021-06-21 11:00:50.218  INFO 8980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-21 11:00:50.387  INFO 8980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 5 JPA repository interfaces.
+2021-06-21 11:00:51.550  INFO 8980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-21 11:00:51.659  INFO 8980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-06-21 11:00:51.929  INFO 8980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-21 11:00:52.769  INFO 8980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-21 11:00:53.068  INFO 8980 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2021-06-21 11:00:53.072  INFO 8980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-21 11:00:53.130  INFO 8980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-06-21 11:00:54.441  INFO 8980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-21 11:00:54.455  INFO 8980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 11:00:56.543  WARN 8980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-21 11:00:57.012  INFO 8980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 11:00:57.220  INFO 8980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-21 11:00:57.839  INFO 8980 --- [main] com.closesi.BlogApplicationTests         : Started BlogApplicationTests in 9.374 seconds (JVM running for 10.874)
+2021-06-21 11:00:58.046  INFO 8980 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 11:00:58.050  INFO 8980 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 11:00:58.054  INFO 8980 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-21 11:00:58.065  INFO 8980 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
